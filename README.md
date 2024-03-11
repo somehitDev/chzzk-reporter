@@ -1,6 +1,15 @@
 <h2>CHZZK Scheduled report</h2>
 <br><br>
 
+## requirements / tested
+- requirements
+  - <a href="https://nodejs.org/en/download/">node.js v20.11.1</a> (latest stable)
+- tested
+  - mac m1
+
+
+<br>
+
 ## install
 ```zsh
 git clone https://github.com/oyajiDev/chzzk-reporter.git
