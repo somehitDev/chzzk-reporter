@@ -16,7 +16,7 @@ git clone https://github.com/oyajiDev/chzzk-reporter.git
 # or download from git page as zip
 
 cd chzzk-reporter
-npm init
+npm install
 ```
 
 <br>
@@ -25,9 +25,11 @@ npm init
 ```js
 {
     "interval": {interval(hour)}, // if not set, 1 used
-    "keyword": "{keyword}", // if not set, "talk" used
+    "keywords": [{array of keywords}], // if not set, [ "talk" ] used
+    "divideByCategory": {bool to divide by category}, // if not set, false used
+    "createFilter": {bool to create filter}, // if not set, false used
+    "openReport": {bool to open report file after generated}, // if not set, false used
     "reportDir": "{report directory}", // if not set, "./reports" used
-    "reportType": "{report type}", // if not set, "json" used
     "nidAuth": "{nid auth}",
     "nidSession": "{nid session}"
 }
@@ -51,5 +53,8 @@ open devtools from chzzk.naver.com
 
 ## start
 ```zsh
+# console(non-gui) version
 npm run update:console
+# gui version
+npm run update:gui
 ```

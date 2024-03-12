@@ -1,4 +1,6 @@
 {
+    "divideByCategory": true,
+    "createFilter": true,
     "nidAuth": "{nid auth}",
     "nidSession": "{nid session}"
 }

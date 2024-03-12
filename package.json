@@ -2,13 +2,16 @@
     "name": "chzzk_board",
     "version": "1.0.0",
     "description": "",
+    "main": "src/gui.js",
     "scripts": {
-        "update:console": "node src/console.js"
+        "update:console": "node src/console.js",
+        "update:gui": "electron ."
     },
     "author": "",
     "license": "MIT",
     "dependencies": {
         "chzzk": "^1.6.0",
+        "electron": "^29.1.1",
         "moment": "^2.30.1",
         "node-schedule": "^2.1.1",
         "xlsx": "^0.18.5"

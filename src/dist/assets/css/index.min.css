@@ -1,0 +1,1 @@
+body{display:flex;flex-flow:column;padding:5px}div.content-row{display:flex;flex-flow:row;justify-content:center;align-items:center}div.content-row>label:first-child{min-width:110px;margin-right:5px}body>div.content-row:not(:last-child){margin-bottom:5px}
