@@ -1,5 +1,5 @@
 node_modules
 reports
-src/reporters1
+src/reporters
 package-lock.json
 *.bsdesign
